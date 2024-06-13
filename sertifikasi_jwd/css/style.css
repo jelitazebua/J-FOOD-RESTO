@@ -1,0 +1,98 @@
+.container{
+    width: 1080px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.wisata{
+    display: flex;
+}
+
+.paket{
+    width: 66.66%;
+    display: flex;
+    gap: 30px;
+    flex-flow: row wrap;
+}
+
+.video{
+    width: 33.33%;
+}
+
+.paket img{
+    width: 295px;
+    height: 285px;
+    border-radius: 15px;
+}
+
+.kartu{
+    border-radius: 15px;
+    margin: 0;
+    padding-bottom: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.kartu h3 , p , a{
+    margin-top: 10px;
+}
+
+main{
+    padding: 0 10px;
+}
+
+body{
+    background-color: burlywood;
+    margin: 0;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a{
+      display: block;
+      padding: 10px;
+      margin: 0;
+      background-color:  burlywood;
+      text-decoration: none;
+      color: white;
+  }
+  
+  nav ul li a:hover{
+      background-color: rgb(102, 7, 7) ;
+      color: white;
+}
+.tampil{
+    border-radius: 1px solid  burlywood;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid;
+}
+
+.tampil tr{
+    border: 1px solid;
+}
+.tampil td{
+    border: 1px solid;
+}
+
+.masukan{
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
